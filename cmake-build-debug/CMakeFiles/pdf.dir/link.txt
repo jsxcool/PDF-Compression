@@ -1,0 +1,1 @@
+/usr/bin/c++  -pthread -g   CMakeFiles/pdf.dir/main.cpp.o  -o pdf -Wl,-rpath,/usr/local/lib /usr/local/lib/libqpdf.so 

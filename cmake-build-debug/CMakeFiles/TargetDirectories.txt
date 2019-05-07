@@ -1,0 +1,3 @@
+/home/jiang/Desktop/Clion/pdf/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/jiang/Desktop/Clion/pdf/cmake-build-debug/CMakeFiles/pdf.dir
+/home/jiang/Desktop/Clion/pdf/cmake-build-debug/CMakeFiles/edit_cache.dir
