@@ -1,0 +1,32 @@
+Deflate:
+   Each type of value (literals, distances, and lengths) in the
+   compressed data is represented using a Huffman code, using one code
+   tree for literals and lengths and a separate code tree for distances.
+   The code trees for each block appear in a compact form just before
+   the compressed data for that block.
+   
+zlib:
+   The zlib format has a very small header of only two bytes to identify it as a zlib stream and to provide decoding information, and a four-byte trailer with a fast check value to verify the integrity of the uncompressed data after decoding.
+   
+   
+   
+   
+   
+ 
+g++ -g -I /usr/local/include/ pdf-parse-content.cc -L /usr/local/lib/ -lqpdf
+
+**parse-content
+
+
+pdf-parse-content: pdf-parse-content.cc
+	g++ -g -I /home/jiang/Desktop/DataCompression/qpdf/include/ parse-content.cc -L /home/jiang/Desktop/DataCompression/qpdf/libqpdf/ -lqpdf
+
+
+qpdf
+qpdf [ options ] infilename [ outfilename ]
+qpdf --qdf --object-streams=disable in.pdf out.pdf
+
+P18 3.8
+p24
+
+qpdf --qdf --compress-streams=n --decode-level=all pic2.pdf out.pdf
