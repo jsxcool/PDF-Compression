@@ -1,5 +1,5 @@
 # PDF-Compression:
-- This project can accomplish compress and decompress of Latex PDF File.
+- This project can accomplish compression and decompression of PDF File produced by Latex.
 - The PDF file must be pure text. Picutres or Equations may be disregared or cause some errors.
 
 ## Shell 
